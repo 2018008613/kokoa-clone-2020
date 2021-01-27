@@ -56,3 +56,23 @@
 .user-component__chat {
     margin-bottom: 15px;
 }
+
+.user-component__text {
+    position: relative;
+}
+
+.user-component__text span {
+    position: absolute;
+    left: 120px;
+    bottom: -1px;
+
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+    font-weight: 600;
+    border: 2px solid tomato;
+}
